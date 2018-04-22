@@ -2,7 +2,7 @@ class Hash
   def keys_of(*arguments)
     collect do |key, value| 
       if value == arguments
-         key
+         return key
       end
     end
   end
