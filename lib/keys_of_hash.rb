@@ -1,7 +1,7 @@
 class Hash
   def keys_of(*arguments)
     collect do |key, value| 
-      if value == arguments
+      arguments.include? == arguments
         key
       end
     end
