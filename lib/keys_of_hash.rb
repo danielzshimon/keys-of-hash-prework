@@ -4,4 +4,5 @@ class Hash
       arguments.include (value) ?
         key : nil 
       end.compact
+end
    
