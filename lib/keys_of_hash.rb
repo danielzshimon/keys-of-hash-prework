@@ -3,6 +3,6 @@ class Hash
     collect do |key, value| 
       arguments.include (value) ?
         key : nil 
-      end.compact
+  end.compact
 end
    
